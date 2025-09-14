@@ -78,8 +78,8 @@ Thumbs.db
 *.pptx
 
 ## 图像文件 ##
-*.png
-*.jpg
+## *.png ##
+## *.jpg ##
 *.jpeg
 *.gif
 *.bmp
