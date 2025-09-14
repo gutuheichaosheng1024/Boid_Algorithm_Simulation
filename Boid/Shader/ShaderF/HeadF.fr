@@ -1,0 +1,20 @@
+#version 460 core
+in vec3 ourColor;
+
+
+
+out vec4 FragColor;
+
+
+
+
+
+
+
+
+    
+void main()
+{
+    vec3 Color = ourColor*0.5;
+    FragColor = vec4(Color, 1.0);
+}

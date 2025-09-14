@@ -1,0 +1,27 @@
+#version 460 core
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec3 aColor;
+layout(location = 2) in vec4 modelMatrix0;
+layout(location = 3) in vec4 modelMatrix1;
+layout(location = 4) in vec4 modelMatrix2;
+layout(location = 5) in vec4 modelMatrix3;
+
+
+out vec3 ourColor;
+
+
+uniform mat4 view;
+uniform mat4 projection;
+    
+void main()
+{
+    mat4 model = mat4(1.0);
+    model[0] = modelMatrix0;
+    model[1] = modelMatrix1;
+    model[2] = modelMatrix2;
+    model[3] = modelMatrix3;
+    gl_Position = projection * view * model * vec4(aPos, 1.0);
+    ourColor = aColor;
+}
+
+
