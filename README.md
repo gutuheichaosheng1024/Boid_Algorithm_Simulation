@@ -6,17 +6,15 @@
 
 ### 自由飞行:
 
-![屏幕截图 2025-09-14 220140.png](C:\Users\nkvd\Pictures\Screenshots\屏幕截图%202025-09-14%20220140.png)
+![屏幕截图 2025-09-14 220140.png](./Picture/Free.png)
 
 ### 跟随头鸟:
 
-![屏幕截图 2025-09-14 220059.png](C:\Users\nkvd\Pictures\Screenshots\屏幕截图%202025-09-14%20220059.png)
+![屏幕截图 2025-09-14 220059.png](./Picture/Follow.png)
 
 ### 带形状飞行
 
-![屏幕截图 2025-09-14 215545.png](C:\Users\nkvd\Pictures\Screenshots\屏幕截图%202025-09-14%20215545.png)
-
-
+![屏幕截图 2025-09-14 215545.png](./Picture/Shape.png)
 
 ## 说明
 
@@ -28,4 +26,4 @@
 ### 前提条件
 
 - Visual Studio 2022 或更高版本
-- 支持 OpenGL 3.3以上 的显卡
+- 
